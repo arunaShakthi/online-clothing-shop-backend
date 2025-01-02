@@ -90,7 +90,7 @@ const singleProduct = async (req, res) => {
         res.json({success:true, product})
 
     } catch (error) {
-
+        
         console.log(error)
         res.json({success:false, message:error.message})
     }
